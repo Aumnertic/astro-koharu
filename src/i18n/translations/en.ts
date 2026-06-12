@@ -17,7 +17,7 @@ export const uiStrings: UIStrings = {
   'nav.about': 'About',
   'nav.music': 'Music',
   'nav.weekly': 'Weekly',
-  'nav.bangumi': 'Bangumi',
+  'nav.bangumi': 'Games',
 
   // ── Common ──────────────────────────────────────────────────
   'common.search': 'Search',
@@ -322,8 +322,8 @@ export const uiStrings: UIStrings = {
   'comment.prompt': 'If you enjoyed this, leave a comment~',
 
   // ── Bangumi ───────────────────────────────────────────────
-  'bangumi.title': 'Bangumi',
-  'bangumi.description': 'My media collection',
+  'bangumi.title': 'Games',
+  'bangumi.description': 'My game collection',
   'bangumi.anime': 'Anime',
   'bangumi.book': 'Books',
   'bangumi.music': 'Music',

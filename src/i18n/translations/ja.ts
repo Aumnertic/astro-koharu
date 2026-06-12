@@ -17,7 +17,7 @@ export const uiStrings: UIStrings = {
   'nav.about': 'ブログについて',
   'nav.music': '音楽',
   'nav.weekly': '週刊',
-  'nav.bangumi': 'オタ活の記録',
+  'nav.bangumi': 'ゲーム',
 
   // ── 一般 ──────────────────────────────────────────────────
   'common.search': '検索',
@@ -322,8 +322,8 @@ export const uiStrings: UIStrings = {
   'comment.prompt': '気に入ったならばコメントを残してくださいね～',
 
   // ── Bangumi (Bangumiは日本語で提供されてないのでざっくりとした内容にしています) ──────
-  'bangumi.title': 'オタ活の記録',
-  'bangumi.description': '私のメディアコレクションです',
+  'bangumi.title': 'ゲーム',
+  'bangumi.description': '私がプレイしたゲームの記録です',
   'bangumi.anime': 'アニメ',
   'bangumi.book': '書籍',
   'bangumi.music': '音楽',

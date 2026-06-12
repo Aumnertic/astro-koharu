@@ -34,7 +34,7 @@ export function BangumiCollection({ userId }: BangumiCollectionProps) {
   const { t } = useTranslation();
   const { data, isLoading, error, retry } = useBangumiData(userId);
 
-  const [activeTab, setActiveTab] = useState<SubjectTypeKey>('anime');
+  const [activeTab, setActiveTab] = useState<SubjectTypeKey>('game');
   const [activeFilter, setActiveFilter] = useState<BangumiCollectionType | 'all'>('all');
   const [currentPage, setCurrentPage] = useState(1);
   const shouldReduceMotion = useReducedMotion();

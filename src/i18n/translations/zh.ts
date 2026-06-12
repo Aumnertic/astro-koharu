@@ -16,7 +16,7 @@ export const uiStrings = {
   'nav.about': '关于',
   'nav.music': '歌单',
   'nav.weekly': '周刊',
-  'nav.bangumi': '追番',
+  'nav.bangumi': '游戏',
 
   // ── Common ──────────────────────────────────────────────────
   'common.search': '搜索',
@@ -321,8 +321,8 @@ export const uiStrings = {
   'comment.prompt': '喜欢的话，留下你的评论吧～',
 
   // ── Bangumi ───────────────────────────────────────────────
-  'bangumi.title': '追番',
-  'bangumi.description': '我的追番记录',
+  'bangumi.title': '游戏',
+  'bangumi.description': '我玩过的游戏记录',
   'bangumi.anime': '动画',
   'bangumi.book': '书籍',
   'bangumi.music': '音乐',

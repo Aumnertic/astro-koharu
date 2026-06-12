@@ -633,8 +633,9 @@ christmas:
 # -----------------------------------------------------------------------------
 bangumi:
   userId: cosine
-  # label: 追番
-  # icon: ri:bilibili-fill
+  # label 留空时使用 i18n 翻译键 nav.bangumi（已改为「游戏」）
+  # label: 游戏
+  icon: ri:gamepad-line
 
 # =============================================================================
 # Development Tools (Dev Only)

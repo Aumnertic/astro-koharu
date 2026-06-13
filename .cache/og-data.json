@@ -53,5 +53,16 @@
       "logo": "https://telegram.org/img/favicon-32x32.png"
     },
     "timestamp": 1781163372960
+  },
+  "https://github.com/glidea/zenfeed": {
+    "data": {
+      "originUrl": "https://github.com/glidea/zenfeed",
+      "url": "https://github.com/glidea/zenfeed",
+      "title": "GitHub - glidea/zenfeed: Make RSS 📰 great again with AI 🧠✨!!",
+      "description": "Make RSS 📰 great again with AI 🧠✨!! Contribute to glidea/zenfeed development by creating an account on GitHub.",
+      "image": "https://opengraph.githubassets.com/256aa6cb7bb3ee283dce16720d612b62e7fbd0f2d1c5342db9e4eb747b91bc30/glidea/zenfeed",
+      "logo": "https://github.com/fluidicon.png"
+    },
+    "timestamp": 1781353743993
   }
 }

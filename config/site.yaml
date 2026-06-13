@@ -76,7 +76,7 @@ categoryMap:
   # 前端: front-end
   # Add more as needed:
   # 书摘: reading
-  # 后端: back-end
+  后端: back-end
   # 算法: algorithm
   项目: project
   CS基础: computer-science-basis

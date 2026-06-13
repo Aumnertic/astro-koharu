@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # =============================================================================
 # astro-koharu — build & deploy to host nginx
-# Serves static dist/ at hznuzc.icu + blog.hznuzc.icu
+# Serves static dist/ at aumnertic.top + blog.aumnertic.top
 # =============================================================================
 # Usage:
-#   ./deploy.sh            # build + publish to /var/www/hznuzc + reload nginx
+#   ./deploy.sh            # build + publish to /var/www/aumnertic + reload nginx
 #   ./deploy.sh --skip-build   # just re-publish existing dist/ and reload
 # =============================================================================
 set -euo pipefail
@@ -12,7 +12,7 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$REPO_ROOT"
 
-WEBROOT="/var/www/hznuzc"
+WEBROOT="/var/www/aumnertic"
 
 if [[ "${1:-}" != "--skip-build" ]]; then
   echo "🔨 Building (4GB node heap; swap required on low-RAM hosts)..."
@@ -35,4 +35,4 @@ echo "🔁 Reloading nginx..."
 nginx -t
 nginx -s reload
 
-echo "✅ Deployed. https://blog.hznuzc.icu  /  https://hznuzc.icu"
+echo "✅ Deployed. https://blog.aumnertic.top  /  https://aumnertic.top"

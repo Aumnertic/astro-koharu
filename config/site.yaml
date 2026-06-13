@@ -13,7 +13,7 @@
 site:
   title: Aumの博客 # 网站名称
   alternate: Aumnertic # 网站英文名称 用于页脚、Logo、@ handle 等
-  subtitle: WA 啊啊啊啊啊 # 网站副标题
+  subtitle: 欲买桂花同载酒 # 网站副标题
   name: Aum # 作者名称 - 请修改为你的名字
   description: 一个基于 Astro 的现代化博客主题 # 网站描述
   avatar: /img/avatar.webp # 网站头像
@@ -26,8 +26,12 @@ site:
   keywords: # SEO 关键词 (全局)
     - 博客
     - Astro
+    - Rust
+    - Python
     - 技术
     - 前端
+    - 后端
+    - 后端
     # 请根据你的网站内容添加关键词
   # breadcrumbHome: 首页  # 面包屑导航中首页的显示名称（默认: '首页'）
   # icp:                         # ICP 备案号（可自定义链接）
@@ -69,12 +73,13 @@ categoryMap:
   工具: tools
   周刊: weekly
   # Secondary categories (for nested paths)
-  前端: front-end
+  # 前端: front-end
   # Add more as needed:
   # 书摘: reading
   # 后端: back-end
   # 算法: algorithm
-  # 项目: project
+  项目: project
+  CS基础: computer-science-basis
 
 # =============================================================================
 # Featured Categories (Homepage)
@@ -95,14 +100,18 @@ featuredCategories:
     label: 笔记
     image: /img/cover/4.webp
     description: 技术笔记、学习笔记
-  - link: note/front-end # 嵌套分类：笔记/前端
-    label: 前端
+  - link: project # 项目
+    label: 项目
     image: /img/cover/1.webp
-    description: 前端技术相关
+    description: 个人项目介绍
   - link: tools # 对应 categoryMap 中 工具: tools
     label: 工具
     image: /img/cover/11.webp
     description: 工具使用、效率提升
+  - link: note/computer-science-basis
+    label: CS基础
+    image: /img/cover/11.webp
+    description: 计算机基础，笔记
 
 # =============================================================================
 # Featured Series
@@ -162,11 +171,11 @@ featuredSeries:
 # -----------------------------------------------------------------------------
 social:
   github:
-    url: https://github.com/your-username # 替换为你的 GitHub 链接
+    url: https://github.com/Aumnertic # 替换为你的 GitHub 链接
     icon: ri:github-fill # Remix Icon 的 GitHub 图标
     color: '#191717' # (可选) 图标颜色
   email:
-    url: mailto:your@email.com # 替换为你的邮箱，需加 mailto: 前缀
+    url: mailto:hznuzc@gmail.com # 替换为你的邮箱，需加 mailto: 前缀
     icon: ri:mail-line
     color: '#55acd5'
   rss:
@@ -231,24 +240,6 @@ friends:
       desc: FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
       image: https://blog.cosine.ren/img/avatar.webp
       color: '#ed788b'
-    - site: 示例博客 A
-      url: https://example-a.com
-      owner: Alice
-      desc: 一个热爱技术的开发者
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Alice
-      color: '#BEDCFF'
-    - site: 示例博客 B
-      url: https://example-b.com
-      owner: Bob
-      desc: 分享生活与技术的小站
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Bob
-      color: '#FBC1CC'
-    - site: 示例博客 C
-      url: https://example-c.com
-      owner: Carol
-      desc: 记录学习与成长的地方
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Carol
-      color: '#ABDCFF'
 
 # =============================================================================
 # Announcements

@@ -21,14 +21,6 @@
     },
     "timestamp": 1781163252180
   },
-  "https://zhuanlan.zhihu.com/p/1900483903984243480": {
-    "data": {
-      "originUrl": "https://zhuanlan.zhihu.com/p/1900483903984243480",
-      "url": "https://zhuanlan.zhihu.com/p/1900483903984243480",
-      "error": "Failed to fetch: 403"
-    },
-    "timestamp": 1781163250092
-  },
   "https://github.com/cosZone/astro-koharu": {
     "data": {
       "originUrl": "https://github.com/cosZone/astro-koharu",
@@ -44,9 +36,12 @@
     "data": {
       "originUrl": "https://book.cosine.ren/",
       "url": "https://book.cosine.ren/",
-      "error": "Request timeout"
+      "title": "前言及目录 | 前端学习记录",
+      "description": "🌸 你好，这里是余弦的学习记录",
+      "image": "https://book.cosine.ren/~gitbook/image?url=https%3A%2F%2F934551782-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FSKmC7C4KtqVvJxUTVKwQ%252Fsocialpreview%252FbwQcTEjPTCn8otbSJ17b%252F5.jpg%3Falt%3Dmedia%26token%3Da2a5f32e-283c-4b4c-9241-0ca7176af981&width=1200&height=630&sign=47632d7f&sv=2",
+      "logo": "https://book.cosine.ren/~gitbook/image?url=https%3A%2F%2F934551782-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FSKmC7C4KtqVvJxUTVKwQ%252Ficon%252FWcaoWRW35EESs2lJLWyW%252Ftx.jpg%3Falt%3Dmedia%26token%3Dde2dd12e-60c6-4078-8049-1f37d3c7e3ec&width=48&height=48&sign=66400c08&sv=2"
     },
-    "timestamp": 1781163356678
+    "timestamp": 1781330873297
   },
   "https://t.me/cosine_front_end": {
     "data": {

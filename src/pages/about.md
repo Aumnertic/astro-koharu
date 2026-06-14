@@ -3,32 +3,37 @@ layout: ../layouts/PageLayout.astro
 title: "About"
 coverTitle: "关于我"
 date: 2025-01-03 01:01:33
-description: "关于我？"
+description: "关于我"
 ---
 
-## 你好，这里是余弦
+## Aumnertic
 
-[![github badge](https://img.shields.io/badge/dynamic/json?color=blue&label=Github&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dyusixian)](https://github.com/yusixian)
+杭师大 · 计算机在读
 
-cosine = 余弦 = cos
+> 去理解，而不仅仅是知道。
 
-愿热情永存，愿热爱不灭，愿生活无憾
+### 关于技术
 
-> 我们 都只是无名之辈 \
-> 做你自己最喜欢的事 \
-> 像花一样 肆意绽放 \
-> 不去管 有没有人欣赏
+主要写 Rust 和 Python。喜欢 Rust 对正确性的执着，也喜欢 Python 随手就能把想法变成现实的那种轻快。平时折腾工具链、写写小项目，偶尔也会被编译器教做人。
+
+对底层的东西有天然的好奇心——想搞明白一个系统到底是怎么跑起来的，而不只是会用它。
+
+### 关于兴趣
+
+塞尔达传说忠实玩家，旷野之息让我第一次感受到"自由"可以被设计出来，王国之泪又把这件事推得更远。喜欢那种不急着告诉你答案、让你自己去发现的游戏。
+
+音乐什么都听一些，写代码的时候偏爱纯音乐和 Post-Rock，跑步的时候切到节奏快的东西。音乐对我来说更像是一种背景温度。
+
+觉得数学是最纯粹的思维游戏，很享受一个证明从混沌变得清晰的过程。零散地读过一些存在主义和认识论相关的东西，不是系统地研究，更多是在想"我怎么知道我知道的是对的"这类问题的时候，发现前人早就想过了。
+
+### 关于这个博客
+
+记录学习和思考的地方。写给自己看，如果恰好对你也有用，那就更好了。
 
 ### 找到我
 
-个人 Telegram 前端频道：日常碎碎念，偶尔掉落优质前端博文推荐、学习资源等
+GitHub: https://github.com/Aumnertic
 
-https://t.me/cosine_front_end
+Email: hznuzc@gmail.com
 
-Gitbook 前端学习记录
-
-https://book.cosine.ren/
-
-[![GitHub State](https://git-stats.cosine.ren/api?username=yusixian&theme=dark&show_icons=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://github-readme-streak-stats-rust-tau.vercel.app?user=yusixian&theme=dark&date_format=%5BY%20%5DM%20&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aumnertic&theme=dark&show_icons=true&hide_border=true)](https://github.com/Aumnertic)

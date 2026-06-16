@@ -1,16 +1,6 @@
 import { useTranslation } from '@hooks/useTranslation';
 import { cn } from '@lib/utils';
-import type { TranslationKey } from '@/i18n/types';
-import { COLLECTION_STATUS_COLORS } from '@/lib/bangumi/constants';
-import type { BangumiCollectionType, BangumiUserCollection } from '@/types/bangumi';
-
-const COLLECTION_LABEL_KEYS: Record<BangumiCollectionType, TranslationKey> = {
-  1: 'bangumi.wish',
-  2: 'bangumi.collected',
-  3: 'bangumi.watching',
-  4: 'bangumi.onHold',
-  5: 'bangumi.dropped',
-};
+import type { BangumiUserCollection } from '@/types/bangumi';
 
 interface BangumiCardProps {
   item: BangumiUserCollection;
@@ -24,7 +14,7 @@ export function BangumiCard({ item }: BangumiCardProps) {
   const tags = item.tags.length > 0 ? item.tags : (subject.tags?.map((tag) => tag.name) ?? []);
   const displayTags = tags.slice(0, 3);
   const overflowCount = tags.length - displayTags.length;
-  const imageUrl = subject.images?.common || subject.images?.medium;
+  const imageUrl = subject.images?.large || subject.images?.common;
 
   // Show user's rating if available, otherwise show subject's average score
   const score = item.rate > 0 ? item.rate : subject.score > 0 ? subject.score : null;
@@ -45,15 +35,6 @@ export function BangumiCard({ item }: BangumiCardProps) {
         )}
 
         <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/80 to-transparent" />
-
-        <span
-          className={cn(
-            'absolute top-2 left-2 rounded px-1.5 py-0.5 font-medium text-white text-xs',
-            COLLECTION_STATUS_COLORS[item.type],
-          )}
-        >
-          {t(COLLECTION_LABEL_KEYS[item.type])}
-        </span>
 
         {score !== null && (
           <span

@@ -79,7 +79,7 @@ categoryMap:
   后端: back-end
   # 算法: algorithm
   项目: project
-  CS基础: computer-science-basis
+  教程: tutorial
 
 # =============================================================================
 # Featured Categories (Homepage)
@@ -108,10 +108,7 @@ featuredCategories:
     label: 工具
     image: /img/cover/11.webp
     description: 工具使用、效率提升
-  - link: note/computer-science-basis
-    label: CS基础
-    image: /img/cover/11.webp
-    description: 计算机基础，笔记
+
 
 # =============================================================================
 # Featured Series

@@ -108,6 +108,10 @@ featuredCategories:
     label: 工具
     image: /img/cover/11.webp
     description: 工具使用、效率提升
+  - link: tutorial
+    label: 教程
+    image: /img/cover/3.webp
+    description: AI 工具、方法论教程
 
 
 # =============================================================================
